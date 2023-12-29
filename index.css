@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Lobster&display=swap');
+
+body,
+h1 {
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F4F4F4;
+}
+
+.main-conatiner {
+    line-height: 38px;
+    max-width: 510px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.title-metric-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #6943FF;
+    margin-bottom: 30px;
+}
+
+input {
+    text-align: center;
+    font-size: 58px;
+    font-weight: 800;
+    padding: 2px 0px;
+    min-width: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 6px;
+}
+
+input::placeholder {
+    color: white;
+    text-align: center;
+}
+
+button {
+    color: #3D3D3D;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 5px;
+}
+
+.result-container {
+    line-height: 20px;
+    text-align: center;
+    background-color: white;
+    margin: 20px 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.result-container h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #5A537B;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535;
+}
